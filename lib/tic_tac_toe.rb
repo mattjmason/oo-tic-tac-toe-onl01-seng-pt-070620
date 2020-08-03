@@ -53,7 +53,7 @@ class TicTacToe
   end
   
   def turn_count
-    @board.count do |square| square != ""
+    @board.count do |square| square != " "
   end
   end 
   
